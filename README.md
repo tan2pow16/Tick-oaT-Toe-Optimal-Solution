@@ -76,7 +76,7 @@ Note that for P1 to _not_ complete any line at this point before filling the 7th
 Example:
 ```
 -------------
-| 2 | 3 | 1 |
+| 3 | 3 | 0 |
 -------------
 | 3 | 0 | 3 |    P1's turn! P2 has already won! Can you see why? ^.^
 -------------
@@ -117,3 +117,19 @@ Good question! In this case, the tailgate lock becomes a double-edged sword. If 
 ```
 
 This is the optimal solution playing as P2! Have fun! `^.^`
+
+---
+
+## Catch
+There is a catch that P1 can always win if P2 strictly follows this method. Can you find out how it could be achieved?
+
+Answer:
+```
+-------------
+| 2 | 3 | 1 |
+-------------
+| 3 | 0 | 3 |    P1's turn! 1/3 chance for P1 to get it right! ^.^
+-------------
+| 1 | 7 | 2 |
+-------------
+```
